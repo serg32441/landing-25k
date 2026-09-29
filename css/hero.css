@@ -1,0 +1,479 @@
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/cormorant-300-cyrillic-ext.woff2") format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/cormorant-300-cyrillic.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/cormorant-300-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,
+    U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../fonts/cormorant-300-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF,
+    U+FFFD;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/cormorant-cyrillic-ext.woff2") format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/cormorant-cyrillic.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/cormorant-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,
+    U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Cormorant Garamond";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/cormorant-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC,
+    U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF,
+    U+FFFD;
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/manrope-cyrillic-ext.woff2") format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C8A, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/manrope-cyrillic.woff2") format("woff2");
+  unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/manrope-latin-ext.woff2") format("woff2");
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304,
+    U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0,
+    U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+
+@font-face {
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/manrope-latin.woff2") format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304,
+    U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  background: #0b1015;
+  color: #c8d0e0;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  background: #0b1015;
+}
+
+.hero {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.hero__stage {
+  --frame: min(100vw, 1024px);
+  width: var(--frame);
+  height: calc(var(--frame) * 1536 / 1024);
+  position: relative;
+  overflow: visible;
+  background: transparent;
+}
+
+.hero__artboard {
+  width: 1024px;
+  height: 1536px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: scale(calc(var(--frame) / 1024px));
+  transform-origin: top left;
+  background: transparent;
+}
+
+.hero__phones {
+  position: absolute;
+  left: 0;
+  top: 500px;
+  width: 1024px;
+  height: 1036px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.hero__phones img {
+  display: block;
+  width: 1024px;
+  height: 1036px;
+}
+
+.hero__birds {
+  position: absolute;
+  left: 720px;
+  top: 250px;
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.82;
+}
+
+.hero__eyebrow {
+  position: absolute;
+  left: 76px;
+  top: 200px;
+  z-index: 3;
+  margin: 0;
+  font-family: Manrope, system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 23px;
+  letter-spacing: 0.64em;
+  text-transform: uppercase;
+  color: rgba(180, 190, 197, 0.3);
+}
+
+.hero__title {
+  position: absolute;
+  left: 79px;
+  top: 291px;
+  z-index: 3;
+  margin: 0;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 76px;
+  letter-spacing: 0.05em;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1, "onum" 0;
+  color: #c0c8d9;
+}
+
+.hero__line {
+  display: block;
+  margin: 0;
+  white-space: nowrap;
+}
+
+.hero__price {
+  color: #dcc6b5;
+  font-style: normal;
+  font-weight: inherit;
+}
+
+.hero__lead {
+  position: absolute;
+  left: 76px;
+  top: 627px;
+  z-index: 3;
+  margin: 0;
+  font-family: Manrope, system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 28px;
+  color: #8e95a0;
+}
+
+.hero__scroll {
+  position: absolute;
+  left: 75px;
+  top: 736px;
+  z-index: 4;
+  width: 64px;
+  height: 64px;
+  color: rgba(197, 206, 217, 0.4);
+  display: block;
+}
+
+.hero__scroll svg {
+  display: block;
+  width: 64px;
+  height: 64px;
+}
+
+.process__phone {
+  position: absolute;
+  left: 0;
+  top: 200px;
+  z-index: 1;
+  pointer-events: none;
+  background: transparent;
+}
+
+.process__phone img {
+  display: block;
+  width: 430px;
+  height: 1180px;
+  background: transparent;
+}
+
+.process__birds {
+  position: absolute;
+  left: 710px;
+  top: 175px;
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.82;
+}
+
+.process__arc {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.process__title {
+  position: absolute;
+  left: 414px;
+  top: 510px;
+  z-index: 3;
+  margin: 0;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 76px;
+  letter-spacing: 0.05em;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1, "onum" 0;
+  color: #c0c8d9;
+}
+
+.process__steps {
+  position: absolute;
+  left: 400px;
+  top: 848px;
+  z-index: 3;
+  width: 560px;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.process__steps li {
+  position: relative;
+  flex: 1;
+  text-align: center;
+}
+
+.process__steps li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  top: 27px;
+  left: calc(50% + 34px);
+  width: calc(100% - 68px);
+  height: 1px;
+  background: rgba(197, 206, 217, 0.22);
+}
+
+.process__icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 14px;
+  color: rgba(197, 206, 217, 0.55);
+}
+
+.process__icon svg {
+  display: block;
+  width: 56px;
+  height: 56px;
+}
+
+.process__label {
+  display: block;
+  font-family: Manrope, system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #8e95a0;
+}
+
+.offer__phone {
+  position: absolute;
+  left: 0;
+  top: 500px;
+  z-index: 1;
+  pointer-events: none;
+  background: transparent;
+}
+
+.offer__phone img {
+  display: block;
+  width: 460px;
+  height: 850px;
+  background: transparent;
+}
+
+.offer__birds {
+  position: absolute;
+  left: 728px;
+  top: 198px;
+  width: 200px;
+  height: 200px;
+  z-index: 2;
+  pointer-events: none;
+  opacity: 0.82;
+}
+
+.offer__arc {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  pointer-events: none;
+}
+
+.offer__title {
+  position: absolute;
+  left: 110px;
+  top: 326px;
+  z-index: 3;
+  margin: 0;
+  font-family: "Cormorant Garamond", "Times New Roman", serif;
+  font-weight: 400;
+  font-size: 76px;
+  line-height: 76px;
+  letter-spacing: 0.05em;
+  font-variant-numeric: lining-nums;
+  font-feature-settings: "lnum" 1, "onum" 0;
+  color: #c0c8d9;
+}
+
+.offer__list {
+  position: absolute;
+  left: 555px;
+  top: 538px;
+  z-index: 3;
+  width: 420px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 52px;
+}
+
+.offer__list li {
+  display: flex;
+  align-items: flex-start;
+  gap: 23px;
+}
+
+.offer__icon {
+  flex: 0 0 54px;
+  width: 54px;
+  height: 54px;
+  color: rgba(197, 206, 217, 0.55);
+}
+
+.offer__icon svg {
+  display: block;
+  width: 54px;
+  height: 54px;
+}
+
+.offer__copy {
+  display: block;
+  padding-top: 4px;
+}
+
+.offer__name {
+  display: block;
+  font-family: Manrope, system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #c0c8d9;
+}
+
+.offer__desc {
+  display: block;
+  margin-top: 6px;
+  font-family: Manrope, system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 18px;
+  color: #8e95a0;
+}
